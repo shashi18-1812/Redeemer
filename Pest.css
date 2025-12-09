@@ -395,6 +395,165 @@ span3{
 
 
 
+/* For tablets (max width 1024px) */
+@media (max-width: 1024px) {
+  .navbar img {
+    height: 70px;
+  }
+  .navbar h1 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .vision-mission-container {
+    gap: 50px;
+  }
+  .service-row,
+  .service-row-1,
+  .service-row-2,
+  .service-row-3,
+  .service-row-4,
+  .service-row-5 {
+    gap: 80px !important;
+  }
+}
+
+/* For mobile devices (max width 768px) */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 5px;
+  }
+
+  .navbar img {
+    height: 60px;
+  }
+
+  .navbar-links a {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+
+  .navbar h1 {
+    font-size: 18px;
+  }
+
+  /* Background text */
+  .background-text {
+    font-size: 50px;
+    top: 35%;
+  }
+
+  /* About content */
+  .content {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  /* Vision & Mission */
+  .vision-mission-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* Fumigation */
+  .fumigation {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .fumigation-img {
+    width: 260px;
+  }
+
+  p4, p5, p6, p7 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Services */
+  .service-row,
+  .service-row-1,
+  .service-row-2,
+  .service-row-3,
+  .service-row-4,
+  .service-row-5 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px !important;
+  }
+
+  .service-img, .service-img-1, .service-img-2, .service-img-3,
+  .service-img-4, .service-img-5 {
+    margin-left: 0;
+    width: 160px;
+    height: 160px;
+  }
+
+  .service-content,
+  .service-content-1,
+  .service-content-2,
+  .service-content-3,
+  .service-content-4,
+  .service-content-5 {
+    max-width: 95%;
+    font-size: 16px;
+  }
+
+  /* Clients */
+  .Clients-img img {
+    width: 140px;
+    height: 140px;
+  }
+
+  /* Footer */
+  .footer img {
+    width: 140px;
+  }
+
+  .details h3 {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+/* Small phones (max width 480px) */
+@media (max-width: 480px) {
+  .navbar h1 {
+    font-size: 16px;
+  }
+  .background-text {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .service-img,
+  .service-img-1,
+  .service-img-2,
+  .service-img-3,
+  .service-img-4,
+  .service-img-5 {
+    width: 135px;
+    height: 135px;
+  }
+  .Clients-img img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+
 
 
 
@@ -409,3 +568,4 @@ span3{
 
 
  
+
